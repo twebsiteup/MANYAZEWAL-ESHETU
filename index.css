@@ -1,0 +1,254 @@
+body {
+  padding-bottom: 20px;
+}
+b{
+  color: blue;
+}
+u{
+  color: blue;
+}
+.navbar {
+  margin-bottom: 20px;
+}
+.blog-post{
+  text-align: justify;
+  padding: 15px;
+  border: 1px solid #e5e5e5;
+    box-shadow: 0 0 0  rgba(13, 110, 253, 0.25);
+}
+
+
+.logo img{
+    max-width: 70px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/* stylelint-disable selector-list-comma-newline-after */
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+  background: rgba(137,142,248,0.337);
+}
+.container{
+  background: rgba(13,18,234,0.094);
+}
+.blog-post-title {
+  margin: .75rem;
+  font-size: 2.0rem;
+  text-align: center;
+  font-weight: bold;
+  color: rgba(6,4,85,0.81);
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #727272;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+.blog-footer p{
+  font-size: 15px;
+}
+/*Social media icones*/
+/*social media icons*/
+.social-icons{
+    text-align: center;
+}
+
+
+/*
+.social-icons .style-1:not(:last-child){
+    margin-right:0.6rem;
+    
+}
+
+*/
+
+.style {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    padding: 5px 5px;
+    margin: 15px;
+    box-shadow: 2px 1px 3px 2px #383838;
+    position: relative;
+
+}
+
+.style .fab {
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.style:hover {
+    color: white;
+}
+
+/*For the circle buttom*/
+.amz-btn-circle {
+    border-radius: 50%;
+}
+
+/*For the rounded corner buttom */
+.amz-btn-round {
+    border-radius: 20%;
+}
+
+
+
+
+/*social media cols color define*/
+.col-rev-facebook:hover{
+    background: #3b5998;
+    transform: translate(0,-10px);
+}
+
+.col-rev-facebook a {
+  color: #3b5998;
+    text-decoration: none;
+}
+.col-rev-facebook a:hover{
+  color: #fff;
+}
+/*YouTube */
+.col-rev-youtube:hover {
+    background-color: #c4302b  ;
+       transform:translate(0, -10px);
+}
+.col-rev-youtube a{
+ color:  #c4302b;
+ text-decoration: none;
+}
+.col-rev-youtube a:hover{
+  color: #fff;
+}
+/*tictok*/
+.col-rev-tiktok:hover {
+  background: #000;
+
+       transform:translate(0, -10px);
+}
+.col-rev-tiktok a{
+      color: #000;
+text-decoration: none;
+}
+.col-rev-tiktok a:hover {
+  color: #fff;
+}
+
+/*Instagram */
+.col-rev-instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  
+
+       transform:translate(0, -10px);
+}
+.col-rev-instagram a{
+      color: #bc2a8d;
+text-decoration: none;
+}
+.col-rev-instagram a:hover {
+  color: #fff;
+}
+/*telegram */
+.col-rev-telegram:hover {
+    background-color: #0088CC   ;
+       transform:translate(0, -10px);
+}
+.col-rev-telegram a{
+ color:  #0088CC;
+ text-decoration: none;
+}
+.col-rev-telegram a:hover{
+  color: #fff;
+}
